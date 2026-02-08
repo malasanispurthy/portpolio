@@ -1,0 +1,568 @@
+g<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malasani Spurthy Reddy | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">MSR</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">
+                    <span class="first-name">Malasani</span>
+                    <span class="last-name">Spurthy Reddy</span>
+                </h1>
+                <div class="typing-container">
+                    <span class="static-text">I'm a </span>
+                    <span class="dynamic-text"></span>
+                    <span class="cursor-blink">|</span>
+                </div>
+                <p class="tagline">Crafting digital experiences with passion and precision</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="blob"></div>
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="floating-icons">
+                    <div class="float-icon icon-1"><i class="fab fa-html5"></i></div>
+                    <div class="float-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+                    <div class="float-icon icon-3"><i class="fab fa-js"></i></div>
+                    <div class="float-icon icon-4"><i class="fab fa-react"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-frame">
+                    <div class="about-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Passionate Developer & Creative Thinker</h3>
+                <p>I'm Malasani Spurthy Reddy, a dedicated developer with a passion for creating beautiful, functional, and user-centered digital experiences. I believe in the power of clean code and thoughtful design to transform ideas into impactful solutions.</p>
+                <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or enjoying a good book on design and development.</p>
+                <a href="#" class="btn btn-primary download-cv">
+                    <span>Download CV</span>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h4>React</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                        <h4>Node.js</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h4>Git</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>Databases</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">App</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-1">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/malasanispurthy/smart-academy" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/malasanispurthy/smart-academy" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Smart Academy</h4>
+                    <p>College management system with AI-powered features for students & teachers</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Gemini AI</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-2">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://malasanispurthy.github.io/text-to-emoji/" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/malasanispurthy/text-to-emoji" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Text to Emoji</h4>
+                    <p>Convert your text into fun emoji representations</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-3">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>E-Commerce Platform</h4>
+                    <p>A modern shopping experience with React & Node.js</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="app">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-4">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Fitness Tracker App</h4>
+                    <p>Track your workouts and health metrics</p>
+                    <div class="project-tags">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-3">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Brand Identity Design</h4>
+                    <p>Complete branding for a tech startup</p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>Illustrator</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Analytics Dashboard</h4>
+                    <p>Real-time data visualization platform</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>D3.js</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="app">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-5">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>Chat Application</h4>
+                    <p>Real-time messaging with video calls</p>
+                    <div class="project-tags">
+                        <span>Socket.io</span>
+                        <span>WebRTC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <div class="project-placeholder gradient-6">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h4>UI/UX Case Study</h4>
+                    <p>Redesigning a banking application</p>
+                    <div class="project-tags">
+                        <span>UX Research</span>
+                        <span>Prototyping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="section-header">
+            <h2 class="section-title">Certifications</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/Copy of IBMDesign20250902-30-6owvkf_copy.pdf" alt="IBM Design Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="certificate-placeholder">
+                        <i class="fab fa-ibm"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>IBM Design Thinking</h4>
+                    <p>IBM</p>
+                    <a href="Certificates/Copy of IBMDesign20250902-30-6owvkf_copy.pdf" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/Copy of Screenshot_2025-09-03-15-23-49-106_com.android.chrome.jpg" alt="Certificate">
+                    <div class="certificate-placeholder" style="display:none;">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>Professional Certificate</h4>
+                    <p>Online Course</p>
+                    <a href="Certificates/Copy of Screenshot_2025-09-03-15-23-49-106_com.android.chrome.jpg" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/Copy of Screenshot_2025-09-03-15-27-54-796_com.android.chrome.jpg" alt="Certificate">
+                    <div class="certificate-placeholder" style="display:none;">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>Professional Certificate</h4>
+                    <p>Online Course</p>
+                    <a href="Certificates/Copy of Screenshot_2025-09-03-15-27-54-796_com.android.chrome.jpg" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/DS.pdf" alt="Data Science Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="certificate-placeholder">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>Data Science</h4>
+                    <p>Certification Course</p>
+                    <a href="Certificates/DS.pdf" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/Free Course Completion (1).pdf" alt="Course Completion Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="certificate-placeholder">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>Course Completion</h4>
+                    <p>Free Course</p>
+                    <a href="Certificates/Free Course Completion (1).pdf" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="Certificates/NLP.pdf" alt="NLP Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="certificate-placeholder">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                </div>
+                <div class="certificate-info">
+                    <h4>Natural Language Processing</h4>
+                    <p>NLP Certification</p>
+                    <a href="Certificates/NLP.pdf" target="_blank" class="view-cert">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Work Together!</h3>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>spurthy.reddy@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" required>
+                    <label for="subject">Subject</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                    <span class="focus-border"></span>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>MSR</span>
+            </div>
+            <p>&copy; 2026 Malasani Spurthy Reddy. All rights reserved.</p>
+            <p class="made-with">Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
